@@ -210,7 +210,7 @@ function Default() {
                     '100%': 'rgb(var(--danger-6))',
                 }} />
 			</Box>
-			<BoxPro><Inscribe /></BoxPro>
+			<BoxPro>COMING SOON </BoxPro>
 			<Box>
 			    <CardList>
 					<Card>
