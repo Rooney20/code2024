@@ -162,7 +162,7 @@ function Inscribe() {
 
 function InscribeTMP() {
 	return <Button
-				style={{height: 60, width: 200, fontSize: 20, fontWeight: 600}}
+				style={{height: 60, width: 300, fontSize: 20, fontWeight: 600}}
 				size="large"
 				shape='round' 
 				type='primary' 
