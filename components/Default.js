@@ -95,7 +95,7 @@ const CardTotal = styled.div`
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 80px;
-	color: rgb(var(--danger-5));
+	color: rgb(var(--danger-6));
 `;
 
 const CardLabel = styled.div`
@@ -107,6 +107,23 @@ const CardLabel = styled.div`
 		margin-left: 5px;
 		color: #555;
 	}
+`;
+
+const Say = styled.div`
+    width: 100%;
+	margin-top: 100px;
+    padding: 100px 0;
+	background: rgb(20,23,27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+const Content = styled.div`
+    width: 1200px;
+    margin: auto;
+	color: #fff;
+	line-height: 30px;
 `;
 
 const Bottom = styled.div`
@@ -132,7 +149,7 @@ function Inscribe() {
 				style={{height: 60, width: 200, fontSize: 20, fontWeight: 600}}
 				size="large"
 				shape='round' 
-				type='primary' 
+				type='primary'
 				status="danger" 
 				loading={isLoading}
 				onClick={()=>{
@@ -141,6 +158,16 @@ function Inscribe() {
 				>
 			{isLoading ? <>Check Wallet</> : <>Inscribe</>}
 			</Button>
+}
+
+function InscribeTMP() {
+	return <Button
+				style={{height: 60, width: 200, fontSize: 20, fontWeight: 600}}
+				size="large"
+				shape='round' 
+				type='primary' 
+				status="danger" 
+				>Coming Soon</Button>
 }
 
 function Default() {
@@ -174,7 +201,7 @@ function Default() {
     <Container>
 	    <Top>
 		    <Head>
-			    <Menu style={{height: 90}} mode='horizontal' defaultSelectedKeys={['2']}>
+			    <Menu style={{height: 90}} mode='horizontal' defaultSelectedKeys={['1']}>
 			        <MenuItem
 			            key='0'
 			            style={{ padding: 0, marginRight: 38, }}
@@ -187,9 +214,10 @@ function Default() {
 						    alt='lamp'
 						/>
 			        </MenuItem>
-			       <MenuItem key='1'>Home</MenuItem>
-			        <MenuItem key='2'>Marketplace</MenuItem>
-			        <MenuItem key='3'>My Space</MenuItem>
+			        <MenuItem key='1'><a href="/">Home</a></MenuItem>
+			        <MenuItem key='2'><a href="/deploy">Deploy</a></MenuItem>
+			        <MenuItem key='3'><a href="/market">Marketplace</a></MenuItem>
+					<MenuItem key='4'><a href="/space">My Space</a></MenuItem>
 			        <MenuItem disabled style={{float: `right`, display: `flex`, alignItems: `center`}}>
 					    <ConnectButton />
 			    	</MenuItem>
@@ -199,9 +227,7 @@ function Default() {
 		<Main>
 		    <Box>
 			    <Breadcrumb>
-			        <BreadcrumbItem>Oops</BreadcrumbItem>
-			        <BreadcrumbItem>21,000,000</BreadcrumbItem>
-			        <BreadcrumbItem>{enNumber(total)}</BreadcrumbItem>
+			        <BreadcrumbItem><span style={{fontSize: 20, fontWeight: 600, color: `rgb(var(--danger-6))`}}>Oops</span></BreadcrumbItem>
 			    </Breadcrumb>
 			</Box>
 			<Box>
@@ -210,7 +236,7 @@ function Default() {
                     '100%': 'rgb(var(--danger-6))',
                 }} />
 			</Box>
-			<BoxPro>COMING SOON </BoxPro>
+			<BoxPro><InscribeTMP /></BoxPro>
 			<Box>
 			    <CardList>
 					<Card>
@@ -218,7 +244,6 @@ function Default() {
 						    <CardTag>Total</CardTag>
 						</CardTitle>
 						<CardTotal>21,000,000 Opps</CardTotal>
-						<CardLabel>HEX:<span>BJJHXKAKSLDLDJKSJKS</span></CardLabel>
 					</Card>
 					<Card style={{position: `relative`}}>
 					    <CardTitle>
@@ -237,11 +262,16 @@ function Default() {
 							<CardTag>Holder</CardTag>
 						</CardTitle>
 					    <CardTotal>{enNumber(holder)}</CardTotal>
-					    <CardLabel>HEX:<span>BJJHXKAKSLDLDJKSJKS</span></CardLabel>
 					</Card>
 				</CardList>
 			</Box>
 		</Main>
+		<Say>
+		    <Content>
+			    <div style={{fontSize: 20, fontWeight: 600, marginBottom: 40}}>OOPS: Your Gateway to Immutable Inscriptions on Optimism.</div>
+				<div>OOPS brings the art of permanent record to the Optimism network, enabling you to deploy inscriptions with unparalleled ease and security. Designed for both newcomers and seasoned developers, OOPS offers a streamlined process to immortalize your data on the blockchain efficiently and at a fraction of the cost. Experience the next evolution of digital inscriptions with OOPS, where your creations become a lasting part of the Optimism ecosystem.</div>
+		    </Content>
+		</Say>
 		<Bottom>
 		    <Foot>
 			   <Image
