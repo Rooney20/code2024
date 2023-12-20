@@ -162,12 +162,12 @@ function Inscribe() {
 
 function InscribeTMP() {
 	return <Button
-				style={{height: 60, width: 300, fontSize: 20, fontWeight: 600}}
+				style={{height: 60, width: 500, fontSize: 20, fontWeight: 600}}
 				size="large"
 				shape='round' 
 				type='primary' 
 				status="danger" 
-				>Open from 16:00 UTC</Button>
+				>Open on Dec 21th at 16:00 UTC</Button>
 }
 
 function Default() {
