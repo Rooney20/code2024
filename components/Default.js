@@ -187,9 +187,9 @@ function Default() {
 						    alt='lamp'
 						/>
 			        </MenuItem>
-			        <MenuItem key='1'>Avascriptions</MenuItem>
-			        <MenuItem key='2'>Tokens</MenuItem>
-			        <MenuItem key='3'>Marketplace</MenuItem>
+			       <MenuItem key='1'>Home</MenuItem>
+			        <MenuItem key='2'>Marketplace</MenuItem>
+			        <MenuItem key='3'>My Space</MenuItem>
 			        <MenuItem disabled style={{float: `right`, display: `flex`, alignItems: `center`}}>
 					    <ConnectButton />
 			    	</MenuItem>
