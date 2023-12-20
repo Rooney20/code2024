@@ -167,7 +167,7 @@ function InscribeTMP() {
 				shape='round' 
 				type='primary' 
 				status="danger" 
-				>Open on Dec 21st at 16:00 UTC</Button>
+				>Open on Dec 21st at 12:00 UTC</Button>
 }
 
 function Default() {
