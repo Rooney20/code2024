@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.arco-menu-selected-label {
+    background-color: #fff !important;
+}
+
+.arco-menu-selected{
+	color: rgb(var(--danger-6)) !important;
+}
+
+.ju367v9h{
+	background: rgb(var(--danger-6)) !important;
+}
