@@ -167,7 +167,7 @@ function InscribeTMP() {
 				shape='round' 
 				type='primary' 
 				status="danger" 
-				>Coming Soon</Button>
+				>16:00 UTC</Button>
 }
 
 function Default() {
