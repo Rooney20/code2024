@@ -268,8 +268,8 @@ function Default() {
 		</Main>
 		<Say>
 		    <Content>
-			    <div style={{fontSize: 20, fontWeight: 600, marginBottom: 40}}>OOPS: Your Gateway to Immutable Inscriptions on Optimism.</div>
-				<div>OOPS brings the art of permanent record to the Optimism network, enabling you to deploy inscriptions with unparalleled ease and security. Designed for both newcomers and seasoned developers, OOPS offers a streamlined process to immortalize your data on the blockchain efficiently and at a fraction of the cost. Experience the next evolution of digital inscriptions with OOPS, where your creations become a lasting part of the Optimism ecosystem.</div>
+			    <div style={{fontSize: 20, fontWeight: 600, marginBottom: 40}}>Oops: Your Gateway to Immutable Inscriptions on Optimism.</div>
+				<div>Oops brings the art of permanent record to the Optimism network, enabling you to deploy inscriptions with unparalleled ease and security. Designed for both newcomers and seasoned developers, Oops offers a streamlined process to immortalize your data on the blockchain efficiently and at a fraction of the cost. Experience the next evolution of digital inscriptions with Oops, where your creations become a lasting part of the Optimism ecosystem.</div>
 		    </Content>
 		</Say>
 		<Bottom>
