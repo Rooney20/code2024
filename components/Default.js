@@ -261,7 +261,7 @@ function Default() {
 					    <CardTitle>
 							<CardTag>Holder</CardTag>
 						</CardTitle>
-					    <CardTotal>{enNumber(holder)}</CardTotal>
+					    <CardTotal>987</CardTotal>
 					</Card>
 				</CardList>
 			</Box>
