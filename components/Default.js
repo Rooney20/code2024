@@ -236,7 +236,7 @@ function Default() {
                     '100%': 'rgb(var(--danger-6))',
                 }} />
 			</Box>
-			<BoxPro><InscribeTMP /></BoxPro>
+			<BoxPro><Inscribe /></BoxPro>
 			<Box>
 			    <CardList>
 					<Card>
