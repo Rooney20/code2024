@@ -274,6 +274,7 @@ function Default() {
 		</Say>
 		<Bottom>
 		    <Foot>
+                        <a href="https://twitter.com/OrigerE56081" target="_blank">
 			   <Image
 			       preview={false}
 			       width={22}
@@ -287,7 +288,7 @@ function Default() {
 				    src='/images/telegram.svg'
 				    alt='telegram'
 				/>
-				<a href="https://oopsdoc.gitbook.io/oops">
+				<a href="https://oopsdoc.gitbook.io/oops" target="_blank">
 				    <Image
 				        style={{marginLeft: `30px`}}
 				        preview={false}
