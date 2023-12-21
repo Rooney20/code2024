@@ -274,7 +274,7 @@ function Default() {
 		</Say>
 		<Bottom>
 		    <Foot>
-                        <a href="https://twitter.com/OrigerE56081">
+                      <a href="https://twitter.com/OrigerE56081">
 			   <Image
 			       preview={false}
 			       width={22}
