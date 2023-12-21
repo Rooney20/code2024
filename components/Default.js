@@ -289,7 +289,7 @@ function Default() {
 				    src='/images/telegram.svg'
 				    alt='telegram'
 				/>
-				<a href="https://oopsdoc.gitbook.io/">
+				<a href="https://gitbook.io/">
 				    <Image
 				        style={{marginLeft: `30px`}}
 				        preview={false}
