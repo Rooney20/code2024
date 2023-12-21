@@ -243,13 +243,13 @@ function Default() {
 					    <CardTitle>
 						    <CardTag>Total</CardTag>
 						</CardTitle>
-						<CardTotal>2,100,000,000 Opps</CardTotal>
+						<CardTotal>2,100,000,000 Oops</CardTotal>
 					</Card>
 					<Card style={{position: `relative`}}>
 					    <CardTitle>
 					    	<CardTag>You Hold</CardTag>
 					    </CardTitle>
-					    <CardTotal>{enNumber(hold)} Opps</CardTotal>
+					    <CardTotal>{enNumber(hold)} Oops</CardTotal>
 					    <CardLabel>ADDR:<span>{isConnected && address}</span></CardLabel>
 						{
 						    isConnected || <div style={{borderRadius: `15px`, border: `1px solid #eee` , position: `absolute`, zIndex: 9, left: 0, top: 0, width: `100%`, height: `100%`, background: `rgba(255,255,255,0.8)`, display: `flex`, alignItems: `center`, justifyContent: `center`}}>
