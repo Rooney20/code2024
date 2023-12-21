@@ -243,7 +243,7 @@ function Default() {
 					    <CardTitle>
 						    <CardTag>Total</CardTag>
 						</CardTitle>
-						<CardTotal>21,000,000 Opps</CardTotal>
+						<CardTotal>2,100,000,000 Opps</CardTotal>
 					</Card>
 					<Card style={{position: `relative`}}>
 					    <CardTitle>
