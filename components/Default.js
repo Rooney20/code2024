@@ -261,7 +261,7 @@ function Default() {
 					    <CardTitle>
 							<CardTag>Holder</CardTag>
 						</CardTitle>
-					    <CardTotal>987</CardTotal>
+					    <CardTotal>N/A</CardTotal>
 					</Card>
 				</CardList>
 			</Box>
