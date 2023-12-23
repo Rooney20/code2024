@@ -231,7 +231,7 @@ function Default() {
 			    </Breadcrumb>
 			</Box>
 			<Box>
-			    <Progress percent={NumbertoFixed(21000000 / 21000000)} strokeWidth={25} color={{
+			    <Progress percent={NumbertoFixed(2100000000 / 21000000)} strokeWidth={25} color={{
                     '0%': 'rgb(var(--danger-6))',
                     '100%': 'rgb(var(--danger-6))',
                 }} />
