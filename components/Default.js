@@ -167,7 +167,7 @@ function InscribeTMP() {
 				shape='round' 
 				type='primary' 
 				status="danger" 
-				>Open on Dec 21st at 12:00 UTC</Button>
+				>END</Button>
 }
 
 function Default() {
@@ -231,12 +231,12 @@ function Default() {
 			    </Breadcrumb>
 			</Box>
 			<Box>
-			    <Progress percent={NumbertoFixed(holder * 100 / 21000000)} strokeWidth={25} color={{
+			    <Progress percent={NumbertoFixed(21000000 / 21000000)} strokeWidth={25} color={{
                     '0%': 'rgb(var(--danger-6))',
                     '100%': 'rgb(var(--danger-6))',
                 }} />
 			</Box>
-			<BoxPro><Inscribe /></BoxPro>
+			<BoxPro><InscribeTMP /></BoxPro>
 			<Box>
 			    <CardList>
 					<Card>
